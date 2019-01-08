@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 包含 bootstrap 样式表 -->
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	 
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	 
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="layout.css" />
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"></a>
+				<span class="navbar-text">热闻.明日头条</span>
+				<button class="btn btn-default navbar-toggle" data-toggle="collapse" data-target="#main_nav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="main_nav" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-left">
+				<li class="active"><a href="">国内</a></li>
+				<li><a href="">国际</a></li>
+				<li><a href="">社会</a></li>
+				<li><a href="">娱乐</a></li>
+				<li><a href="">军事</a></li>
+				<li><a href="">政务</a></li>
+				<li><a href="">公益</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="login.html">登录</a></li>
+				<li><a href="signup.html">注册</a></li>
+			</ul>
+			</div>
+			
+		</div>	
+	</nav>
+
+	<div class="container container-small">
+		<form action="">
+			<div class="login">
+				<h1>注册</h1>
+				<span class="sign text-muted">已有账号？<a href="#">登录</a></span>
+			</div>
+			<div class="form-group">
+				<label for="user-name">手机</label>
+				<input type="text" id="user-name" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="user-name">验证码</label>
+				<div class="input-group">
+					<input type="text" id="user-name" class="form-control">
+					<span class="input-group-btn"><button type="button" class="btn btn-default">发送验证码</button></span>
+				</div>
+				
+			</div>
+
+			<div class="form-group">
+				<label for="password">密码</label>
+				<input type="password" id="password" class="form-control">
+			</div>
+
+			<div class="forgive-passwd">注册明日头条账号代表您同意<a href="">明日头条服务条款</a></div>
+
+			<input type="submit" class="btn btn-primary form-control">
+		</form>
+	</div>
+</body>
+</html>

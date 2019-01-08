@@ -1,0 +1,109 @@
+.navbar-brand{
+	background-image: url("img/logo.jpg");
+	width:50px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right:20px;
+}
+
+.news-list .news-list-item img{
+	width:100%;
+	display:inline-block;
+	max-width:200px;
+	border-radius: 5px;
+}
+
+.news-list .news-list-item a{
+	font-size:20px;
+	color:#444;
+	font-weight: bold;
+}
+
+.news-list .news-list-item a:hover{
+	text-decoration: none;
+}
+
+
+.news-list .news-list-item{
+	padding-top:20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #eee;
+}
+
+.side-bar-card img{
+	width:100%;
+	display:inline-block;
+}
+
+.side-bar-card{
+	background-color: rgba(0,0,0,.05);
+	padding:10px 0;
+	margin-top:10px;
+	border-radius: 5px;
+}
+
+.side-bar-card .jubao a{
+	font-size:16px;
+	text-decoration: none;
+}
+
+.side-bar-card .jubao a:hover{
+	text-decoration:none;
+}
+
+.side-bar-card .list .item{
+	padding-left: 10px;
+}
+
+.side-bar-card .list .item .desc{
+	margin-bottom: 10px;
+}
+
+.side-bar-card .list .item:hover{
+	background-color:#999;
+}
+
+.side-bar-card .list h5{
+	padding-left:10px;
+	font-weight: bold;
+	margin-top:0px;
+}
+
+.content{
+	font-size:15px;
+}
+.content img{
+	margin:10px auto;
+	display:block;
+	width:100%;
+}
+
+.side-bar-card .list .item img{
+	width:100%;
+	margin-top:10px;
+}
+
+.container-small{
+	max-width: 600px;
+}
+
+.login h1{
+	display:inline-block;
+	margin-right: 5px;
+	font-weight: 600;
+}
+
+.login .sign{
+	font-size:18px;
+	font-weight: 500;
+}
+
+.forgive-passwd a{
+	color:#666;
+	margin-bottom: 10px;
+}
+
+.forgive-passwd{
+	margin-bottom: 10px;
+}
